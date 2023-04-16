@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'koodak';
+  src: url("../fonts/KoodakBold.eot?#") format("eot"), url("../fonts/KoodakBold.ttf") format("truetype"), url("../fonts/KoodakBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nazanin';
+  src: url("../fonts/Nazanin.eot?#") format("eot"), url("../fonts/Nazanin.ttf") format("truetype"), url("../fonts/Nazanin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yekan';
+  src: url("../fonts/Yekan.eot?#") format("eot"), url("../fonts/Yekan.ttf") format("truetype"), url("../fonts/Yekan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../Images/Math1.jpg);
+  background-size: cover;
+}
+
+form {
+  height: 95vh;
+}
+
+.No1 {
+  width: 400px;
+  height: 50px;
+  gap: 20px;
+}
+
+.No2 {
+  background-color: white;
+  font-size: 14px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.No3 {
+  background-color: rgba(255, 255, 255, 0.541);
+  -webkit-backdrop-filter: blur(6.9px);
+          backdrop-filter: blur(6.9px);
+}
+
+input {
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+p {
+  font-family: 'koodak';
+}
+
+.No4 {
+  gap: 10px;
+}
+/*# sourceMappingURL=Calculator.css.map */

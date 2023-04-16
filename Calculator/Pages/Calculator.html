@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/Calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body class="d-flex flex-column align-items-center" id="Back">
+    <!-- Start of Calculator -->
+    <form action="" class="w-100 d-flex flex-column justify-content-center align-items-center" id="Color">
+        <div class="border d-flex flex-column justify-content-center align-items-center p-5 No3" id="No3">
+            <label for="Num1" class="mb-2">Number 1:</label>
+            <input type="text" id="Num1">
+            <label for="Num2" class="mb-2">Number 2:</label>
+            <input type="text" id="Num2">
+            <hr>
+            <div class="row justify-content-center align-items-center No1">
+                <!-- Buttons -->
+                <button type="button" value="" onclick="sum()" class="btn btn-info font-weight-bolder">+</button>
+                <button type="button" value="" onclick="sub()" class="btn btn-info font-weight-bolder">-</button>
+                <button type="button" value="" onclick="mul()" class="btn btn-info font-weight-bolder">*</button>
+                <button type="button" value="" onclick="div()" class="btn btn-info font-weight-bolder">/</button>
+                <button type="button" value="" onclick="Percentage()" class="btn btn-info font-weight-bolder">%</button>
+                <button type="button" value="" onclick="tavan()" class="btn btn-info font-weight-bolder">^</button>
+            </div>
+            <br>
+            <p class="border-bottom border-dark">برای میانگین چهار عددی از منوی زیر استفاده کنید</p>
+            <div class="row justify-content-center align-items-center No4">
+                <label for="Numb1" class="mb-2">Number 1:</label>
+                <input type="text" id="Numb1">
+                <label for="Numb2" class="mb-2">Number 2:</label>
+                <input type="text" id="Numb2">
+                <label for="Numb3" class="mb-2">Number 3:</label>
+                <input type="text" id="Numb3">
+                <label for="Numb4" class="mb-2">Number 4:</label>
+                <input type="text" id="Numb4">
+            </div>
+            <div><button type="button" value="" onclick="average()" class="btn btn-info mb-3 mt-3">average</button>
+            </div>
+            <div class="No2 border border-dark text-center mb-2" id="Change2">
+                <h5 id="Res">جوابها</h5>
+            </div>
+            <div class="No2 border border-dark text-center" id="Change">
+                <h5 id="Qaboli">نوع عملیات</h5>
+            </div>
+            <button type="button" value="" onclick="Theme()" class="btn btn-info font-weight-bolder mt-3">
+                حالت شب</button>
+            <button type="button" value="" onclick="Home()" class="btn btn-info font-weight-bolder mt-3">بازگشت به صفحه اصلی
+                </button>
+        </div>
+    </form>
+    <!-- End of Calculator -->
+
+    <!-- Java Script -->
+    <script src="../JavaScript/JavaScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+
+// Font Links
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/KoodakBold.eot?#')format('eot'), url('../fonts/KoodakBold.ttf')format('truetype'), url('../fonts/KoodakBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url('../fonts/Nazanin.eot?#')format('eot'), url('../fonts/Nazanin.ttf')format('truetype'), url('../fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot?#')format('eot'), url('../fonts/Yekan.ttf')format('truetype'), url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Css
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'koodak';
+}
+body{
+    height: 100vh;
+    background-image: url(../Images/LoginBack.jpg);
+    background-size: cover;
+}
+.No1{
+    gap: 10px;
+    border-radius: 5px;
+    width: 700px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.438);
+    backdrop-filter: blur(6.9px);
+}
+.No2{
+    font-size: 18px;
+}
